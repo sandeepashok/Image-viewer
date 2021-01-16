@@ -1,22 +1,22 @@
-body{
+body {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('img/background.jpg')center/cover no-repeat;
+    background: url('/images/background.svg')center/cover no-repeat;
 }
 
-.images{
-    background: yellow;
-    flex: 0 0 80%;
+.images {
+    background-color: white;
+    flex: 0 0 60%;
     min-height: 70vh;
-    background: url('img/bcg-0.jpeg')center/cover no-repeat;
+    background: url('images/bcg-0.svg')center/cover no-repeat;
     border-radius: 15px;
-    box-shadow: 5px 10px black;
+    box-shadow: 10px 10px 10px 10px black;
     position: relative;
 }
 
-.btn{
+.btn {
     display: inline-block;
     background: blanchedalmond;
     color: black;
@@ -28,26 +28,26 @@ body{
     outline: none;
 }
 
-.prevBtn{
+.prevBtn {
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.nextBtn{
+.nextBtn {
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translate(50%,-50%);
+    transform: translate(50%, -50%);
 }
 
-.btn:active{
+.btn:active {
     background: gray;
     box-shadow: 1px 1px gray;
 }
 
-.btn:hover{
+.btn:hover {
     background: greenyellow;
     color: whitesmoke;
 }
